@@ -1,5 +1,5 @@
 const axios = require("axios");
-require("dotenv").config({path: __dirname + "/.env"});
+require("dotenv").config({path: __dirname + "/.env", quiet: true});
 
 // Get command line arguments
 const arg = process.argv.slice(2)[0]; // The real command line arguments start from the third element
